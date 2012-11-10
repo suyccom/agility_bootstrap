@@ -3,14 +3,14 @@ class Story < ActiveRecord::Base
   hobo_model # Don't put anything above this
 
   fields do
-    title  :string
-    notes  :string
-    place  :string
+    title  :string, :required
+    notes  :string, :required
+    place  :string, :required
     description :string
     body   :markdown
     timestamps
   end
-  attr_accessible :title, :status_id, :status, :place, :notes, :description, :body
+  attr_accessible :title, :status_id, :status, :place, :notes, :description, :body, :project_id
 
   belongs_to :project
   
