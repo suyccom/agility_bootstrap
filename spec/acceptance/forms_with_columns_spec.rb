@@ -23,19 +23,19 @@ describe 'The user can use forms with columns', :type => :acceptance, :driver =>
   
   it 'forms with aside' do
     visit '/stories/new_aside'
-    human_check_sizes '¿Se ve bien el aside con una columna?'
+    human_check_sizes 'Does the aside look nice with one column?'
   
     visit '/stories/new_2_column_aside'
-    human_check_sizes '¿Se ve bien el aside con dos columnas?'
+    human_check_sizes 'Does the aside look nice with two columns?'
     
     visit '/stories/new_3_column_aside'
-    human_check_sizes '¿Se ve bien el aside con tres columnas?'
+    human_check_sizes 'Does the aside look nice with three columns?'
   end
   
   
   it 'forms with double sized fields' do
     visit '/stories/new_double_size_field'
-    human_check_sizes '¿Se ve bien el campo doble de largo?'
+    human_check_sizes 'Do the double sized fields look nice?'
   end
   
   
@@ -45,9 +45,9 @@ describe 'The user can use forms with columns', :type => :acceptance, :driver =>
 #    human_check_sizes '¿Se ve bien el campo doble de largo?'
 #  end
   
-  # Show 1,2,3 columnas
+  # Show with 1,2,3 columns
   
   
-  # Show con aside
+  # Show with aside
  
 end
