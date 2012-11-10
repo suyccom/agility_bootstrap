@@ -1,0 +1,64 @@
+<new-page content-size="9">
+  
+  <aside:>
+    Hola! Soy el aside :)
+  </aside:>
+  
+  
+  <form:>
+    <field-list: replace>
+      <field-list size="9" columns="3" fields="title, notes, place"/>
+
+      <div class="row columns">
+        <div class="span6">
+          <single-field-list fields="description"/>
+        </div>
+        <div class="span3">
+          <single-field-list fields="title"/>
+        </div>
+      </div>
+      
+      <div class="row columns">
+        <div class="span6">
+          <single-field-list fields="description"/>
+        </div>
+        <div class="span3">
+          <single-field-list fields="title"/>
+        </div>
+      </div>
+      
+      <div class="row columns">
+        <div class="span9">
+          <single-field-list fields="description"/>
+        </div>
+      </div>
+      
+      <div class="row columns">
+        <div class="span3">
+          <single-field-list fields="description"/>
+        </div>
+        <div class="span6">
+          <single-field-list fields="title"/>
+        </div>
+      </div>
+      
+      <div class="row columns">
+        <div class="span3">
+          <single-field-list fields="description"/>
+        </div>
+        <div class="span3">
+          <single-field-list fields="title"/>
+        </div>
+        <div class="span3">
+          <single-field-list fields="title"/>
+        </div>
+      </div>
+    </field-list:>
+    
+  </form:>
+  
+</new-page>
+
+
+
+

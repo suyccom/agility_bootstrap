@@ -1,0 +1,11 @@
+<new-page content-size="9">
+  
+  <aside:>
+    Hola! Soy el aside :)
+  </aside:>
+  
+  <form:>
+    <field-list: size="9" columns="2" />
+  </form:>
+  
+</new-page>

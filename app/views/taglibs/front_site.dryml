@@ -15,9 +15,17 @@
 <include src="application"/>
 
 <extend tag="page">
-  <old-page merge bottom-load-javascript="true"/>
+  <old-page merge nav-location="sub" bottom-load-javascript="true">
+    <append-app-name:>
+      <span style="float:left;font-size:1.3em;padding:10px 5px 5px 5px;" id="messagebox"></span>
+      <a if="&Rails.env.test?" 
+         href="#" class="btn btn-success" style="float:left;"
+         onclick="$('#messagebox').html('Txatxi'); return false;">
+        OK
+      </a>
+    </append-app-name:>  
+  </old-page>
 </extend>
-
 
 <extend tag="card" for="Task">
   <old-card merge>

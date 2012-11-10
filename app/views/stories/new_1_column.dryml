@@ -1,0 +1,5 @@
+<new-page>
+  <form:>
+    <field-list: columns="1"/>
+  </form:>
+</new-page>

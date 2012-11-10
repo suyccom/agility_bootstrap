@@ -369,8 +369,8 @@
           </header>
 
           <section param="content-body">
-            <view:body param="description" />
-            <field-list fields="status" param/>
+            <view:description param="description" />
+            <field-list fields="notes, place, body, status" param/>
             <section param="collection-section">
               <h3 param="collection-heading">
                 <ht key="task.collection.heading" count="&this.tasks.count" >

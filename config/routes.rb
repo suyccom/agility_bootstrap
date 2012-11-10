@@ -10,6 +10,14 @@ AgilityBootstrap::Application.routes.draw do
   match 'users/:id/activate_from_email/:key' => 'users#activate', :as => 'activate_from_email'
 
   match 'search' => 'front#search', :as => 'site_search'
+  
+  match 'stories/new_1_column' => 'stories#new_1_column'  
+  match 'stories/new_2_column' => 'stories#new_2_column'
+  match 'stories/new_3_column' => 'stories#new_3_column'
+  match 'stories/new_aside' => 'stories#new_aside'
+  match 'stories/new_2_column_aside' => 'stories#new_2_column_aside'
+  match 'stories/new_3_column_aside' => 'stories#new_3_column_aside'
+  match 'stories/new_double_size_field' => 'stories#new_double_size_field'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

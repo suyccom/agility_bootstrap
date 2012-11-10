@@ -28,7 +28,7 @@
 <def tag="form" for="Story">
   <form merge param="default">
     <error-messages param/>
-    <field-list fields="title, body, project, status" param/>
+    <field-list fields="title, notes, place, description, body, project, status" param/>
     <div param="actions">
       <submit label="#{ht 'story.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
     </div>

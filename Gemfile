@@ -59,3 +59,12 @@ gem "jquery-ui-themes", "~> 0.0.4"
 
 gem "acts_as_list"
 gem "bluecloth"
+
+
+group :test do
+  # gem 'factory_girl_rails'
+  # get the latest version with the DSL from git
+  gem 'capybara', "1.1.2"
+  #gem 'capybara-webkit', :git => 'git://github.com/thoughtbot/capybara-webkit'
+  gem 'spork', :git => 'git://github.com/sporkrb/spork.git'
+end

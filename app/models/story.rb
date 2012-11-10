@@ -4,10 +4,13 @@ class Story < ActiveRecord::Base
 
   fields do
     title  :string
+    notes  :string
+    place  :string
+    description :string
     body   :markdown
     timestamps
   end
-  attr_accessible :title, :body, :status_id, :status
+  attr_accessible :title, :status_id, :status, :place, :notes, :description, :body
 
   belongs_to :project
   
@@ -20,7 +23,7 @@ class Story < ActiveRecord::Base
   # --- Permissions --- #
 
   def create_permitted?
-    project.creatable_by?(acting_user)
+    true#project.creatable_by?(acting_user)
   end
 
   def update_permitted?
@@ -32,7 +35,7 @@ class Story < ActiveRecord::Base
   end
 
   def view_permitted?(field)
-    project.viewable_by?(acting_user)
+    true#project.viewable_by?(acting_user)
   end
 
 end
