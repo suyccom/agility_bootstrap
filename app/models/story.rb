@@ -10,7 +10,7 @@ class Story < ActiveRecord::Base
     body   :markdown
     timestamps
   end
-  attr_accessible :title, :status_id, :status, :place, :notes, :description, :body, :project_id
+  attr_accessible :title, :status_id, :status, :place, :notes, :description, :body, :project_id, :project
 
   belongs_to :project
   
