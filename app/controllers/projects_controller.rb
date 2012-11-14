@@ -13,7 +13,13 @@ class ProjectsController < ApplicationController
   end
   
   def create
-    hobo_create {@this = Story.new(:project => @project) if request.xhr?}
+    hobo_create do
+      if request.xhr?
+        @this = Story.new(:project => @project) 
+      else
+        create_response
+      end
+    end
   end
 
 
