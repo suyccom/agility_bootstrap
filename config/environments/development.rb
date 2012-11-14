@@ -3,7 +3,7 @@ AgilityBootstrap::Application.configure do
   # config.watchable_dirs[File.join(config.root, 'app/views')] = ['dryml']
   
   dir1 = File.join(config.root, 'app/views')
-  dir2 = '/home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo_bootstrap'
+  dir2 = '/home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo_bootstrap_ui'
   config.watchable_dirs[dir1] = ['dryml']
   config.watchable_dirs[dir2] = ['dryml']
   

@@ -1,14 +1,4 @@
 GIT
-  remote: git://github.com/Hobo/hobo_bootstrap.git
-  revision: 378119ae90121676872d99a966b49e33df927931
-  specs:
-    hobo_bootstrap (2.0.0.pre5)
-      bootstrap-sass (~> 2.1)
-      hobo (~> 2.0.0.pre1)
-      hobo_jquery_ui (~> 2.0.0.pre1)
-      will_paginate-bootstrap (~> 0.2.1)
-
-GIT
   remote: git://github.com/Hobo/will_paginate.git
   revision: cc7ef01551b94fe4f607e38929037234dc70bb62
   specs:
@@ -23,40 +13,55 @@ GIT
 PATH
   remote: /home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo
   specs:
-    dryml (2.0.0.pre5)
+    dryml (2.0.0.pre6)
       actionpack (~> 3.2.0)
-      hobo_support (= 2.0.0.pre5)
-    hobo (2.0.0.pre5)
-      dryml (= 2.0.0.pre5)
-      hobo_fields (= 2.0.0.pre5)
-      hobo_support (= 2.0.0.pre5)
+      hobo_support (= 2.0.0.pre6)
+    hobo (2.0.0.pre6)
+      dryml (= 2.0.0.pre6)
+      hobo_fields (= 2.0.0.pre6)
+      hobo_support (= 2.0.0.pre6)
       will_paginate (~> 3.0.0)
-    hobo_clean (2.0.0.pre5)
-      hobo (= 2.0.0.pre5)
-      hobo_jquery_ui (= 2.0.0.pre5)
-    hobo_clean_admin (2.0.0.pre5)
-      hobo_clean (= 2.0.0.pre5)
-    hobo_jquery (2.0.0.pre5)
-      hobo_rapid (= 2.0.0.pre5)
+    hobo_clean (2.0.0.pre6)
+      hobo (= 2.0.0.pre6)
+      hobo_jquery_ui (= 2.0.0.pre6)
+    hobo_clean_admin (2.0.0.pre6)
+      hobo_clean (= 2.0.0.pre6)
+    hobo_jquery (2.0.0.pre6)
+      hobo_rapid (= 2.0.0.pre6)
       jquery-rails (~> 2.0)
-    hobo_jquery_ui (2.0.0.pre5)
-      hobo (= 2.0.0.pre5)
-      hobo_jquery (= 2.0.0.pre5)
+    hobo_jquery_ui (2.0.0.pre6)
+      hobo (= 2.0.0.pre6)
+      hobo_jquery (= 2.0.0.pre6)
       jquery-ui-themes (~> 0.0.4)
-    hobo_rapid (2.0.0.pre5)
-      hobo (= 2.0.0.pre5)
+    hobo_rapid (2.0.0.pre6)
+      hobo (= 2.0.0.pre6)
 
 PATH
   remote: /home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo/hobo_fields
   specs:
-    hobo_fields (2.0.0.pre5)
-      hobo_support (= 2.0.0.pre5)
+    hobo_fields (2.0.0.pre6)
+      hobo_support (= 2.0.0.pre6)
 
 PATH
   remote: /home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo/hobo_support
   specs:
-    hobo_support (2.0.0.pre5)
+    hobo_support (2.0.0.pre6)
       rails (~> 3.2.0)
+
+PATH
+  remote: /home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo_bootstrap
+  specs:
+    hobo_bootstrap (2.0.0.pre6)
+      bootstrap-sass (~> 2.1)
+      hobo (~> 2.0.0.pre1)
+      hobo_jquery_ui (~> 2.0.0.pre1)
+      will_paginate-bootstrap (~> 0.2.1)
+
+PATH
+  remote: /home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo_bootstrap_ui
+  specs:
+    hobo_bootstrap_ui (2.0.0.pre6)
+      hobo_bootstrap (~> 2.0.0.pre1)
 
 GEM
   remote: https://rubygems.org/
@@ -228,6 +233,7 @@ DEPENDENCIES
   dryml!
   hobo!
   hobo_bootstrap!
+  hobo_bootstrap_ui!
   hobo_clean!
   hobo_clean_admin!
   hobo_fields!

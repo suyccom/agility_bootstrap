@@ -53,8 +53,10 @@ gem "quiet_assets", :group => :development
 # Hobo's version of will_paginate is required.
 
 gem "will_paginate", :git => "git://github.com/Hobo/will_paginate.git"
-gem "hobo_bootstrap", :git => "git://github.com/Hobo/hobo_bootstrap.git"
-#gem "hobo_bootstrap", :path => "/home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo_bootstrap"
+#gem "hobo_bootstrap", :git => "git://github.com/Hobo/hobo_bootstrap.git"
+gem "hobo_bootstrap", :path => "/home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo_bootstrap"
+#gem "hobo_bootstrap_ui", :git => "git://github.com/Hobo/hobo_bootstrap_ui.git"
+gem "hobo_bootstrap_ui", :path => "/home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo_bootstrap_ui"
 gem "jquery-ui-themes", "~> 0.0.4"
 
 gem "acts_as_list"

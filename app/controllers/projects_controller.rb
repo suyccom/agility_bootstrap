@@ -11,6 +11,10 @@ class ProjectsController < ApplicationController
       :status_is => params[:status],
       :order_by  => parse_sort_param(:title, :status))
   end
+  
+  def create
+    hobo_create {@this = Story.new(:project => @project) if request.xhr?}
+  end
 
 
 end

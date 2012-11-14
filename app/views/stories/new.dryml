@@ -1,0 +1,10 @@
+<new-page>
+  <form:>
+    <field-list:>
+      <project-view:><select-one-or-new/></project-view:>
+    </field-list:>
+  </form:>
+</new-page>
+
+
+
