@@ -45,7 +45,7 @@ gem "hobo_rapid", :path => "/home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo"
 gem "hobo_clean", :path => "/home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo"
 gem "hobo_clean_admin", :path => "/home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo"
 gem "hobo_jquery", :path => "/home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo"
-gem "hobo_jquery_ui", :path => "/home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo"
+#gem "hobo_jquery_ui", :path => "/home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo"
 gem "rspec-rails", ">= 2.5.0", :group => [:test, :development]
 # Hobo has a lot of assets.   Stop cluttering the log in development mode.
 
@@ -57,7 +57,7 @@ gem "will_paginate", :git => "git://github.com/Hobo/will_paginate.git"
 gem "hobo_bootstrap", :path => "/home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo_bootstrap"
 #gem "hobo_bootstrap_ui", :git => "git://github.com/Hobo/hobo_bootstrap_ui.git"
 gem "hobo_bootstrap_ui", :path => "/home/ignacio/Trabajos/2_Proyectillos/Hobo/hobo_bootstrap_ui"
-gem "jquery-ui-themes", "~> 0.0.4"
+#gem "jquery-ui-themes", "~> 0.0.4"
 
 gem "acts_as_list"
 gem "bluecloth"
